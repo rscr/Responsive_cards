@@ -1,0 +1,39 @@
+@media all and (min-width: 1440px) {
+    
+    
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+
+
+    }
+
+
+    .card1 {
+        height: 450px;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .card2 {
+        height: 450px;
+    }
+
+    .card3 {
+        height: 450px;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .card {
+        padding-top: 50px;
+    }
+    
+    .card-desc {
+        margin-bottom: 10px;
+    }
+
+}
+

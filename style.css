@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card {
+  width: 200px;
+  padding: 30px;
+}
+
+.card1-img {
+  padding: 0.5rem 0 0 0.1rem;
+}
+
+.card2-img {
+  padding: 0.5rem 0 0 0.1rem;
+}
+
+.card3-img {
+  padding: 0.5rem 0 0 0.1rem;
+}
+
+.card-title {
+  padding: 2.5rem 0 1rem 0;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 1.7rem;
+  color: rgba(255, 255, 255, 0.75);
+  text-transform: uppercase;
+}
+
+.card-desc {
+  padding-top: 5px;
+  padding-bottom: 30px;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.8rem;
+  font-size: 1.1rem;
+}
+
+.card1 {
+  background-color: #e38826;
+  border-radius: 10px 10px 0 0;
+  width: 300px;
+  height: 400px;
+}
+
+.card2 {
+  background-color: #006970;
+  width: 300px;
+  height: 400px;
+}
+
+.card3 {
+  background-color: #004241;
+  border-radius: 0 0 10px 10px;
+  width: 300px;
+  height: 400px;
+}
+
+.btn {
+  background-color: #f2f2f2;
+  width: 130px;
+  height: 3rem;
+  border-radius: 3rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.card1-btn {
+  color: #e38826;
+}
+
+.card2-btn {
+  color: #006970;
+}
+
+.card3-btn {
+  color: #004241;
+}
+
+@media all and (min-width: 1440px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .card1 {
+    height: 450px;
+    border-radius: 10px 0 0 10px;
+  }
+  .card2 {
+    height: 450px;
+  }
+  .card3 {
+    height: 450px;
+    border-radius: 0 10px 10px 0;
+  }
+  .card {
+    padding-top: 50px;
+  }
+  .card-desc {
+    margin-bottom: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

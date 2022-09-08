@@ -1,0 +1,97 @@
+.card {
+    width: 30%;
+    padding: 30px;
+    &:first-child {
+        border-radius: 1rem 1rem 0 0;
+    }
+    &:last-child {
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+}
+
+.container {
+    padding: 20px;
+}
+
+.card-title {
+    padding: 3rem 0;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 1.7rem;
+    color: $paragraphs;
+    text-transform: uppercase;
+}
+
+
+.card-desc {
+    padding-top: 0.5rem;
+    color: $paragraphs;
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+}
+
+
+.card1 {
+    background-color: $bg-1;
+    width: 20rem;
+    height: 443px;
+    border-radius: 10px 10px 0 0;
+    padding: 8%;
+}
+
+.card2 {
+    background-color: $bg-2;
+    width: 20rem;
+    height: 443px;
+    border-radius: 0;
+    padding: 8%;
+}
+
+.card3 {
+    background-color: $bg-3;
+    width: 20rem;
+    height: 443px;
+    border-radius: 0 0 10px 10px;
+    padding: 8%;
+}
+
+.card1-img {
+    padding: 0.5rem 0 0 0.1rem;
+}
+
+.card2-img {
+    padding: 0.5rem 0 0 0.1rem;
+}
+
+.card3-img {
+    padding: 0.5rem 0 0 0.1rem;
+}
+
+
+.btn {
+    background-color: $buttons;
+    height: 3rem;
+    border-radius: 3rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.card1-btn {
+    color: $bg-1;
+}
+
+.card2-btn {
+    color: $bg-2;
+}
+
+.card3-btn {
+    color: $bg-3;
+}
+
+
+a {
+    padding: 0 3rem;
+    font-size: 1rem;
+}

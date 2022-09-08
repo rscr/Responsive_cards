@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-top: 5%;
+    
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.card {
+    width: 200px;
+    padding: 30px;
+
+}    
+
+.card1-img {
+    padding: 0.5rem 0 0 0.1rem;
+}
+
+.card2-img {
+    padding: 0.5rem 0 0 0.1rem;
+}
+
+.card3-img {
+    padding: 0.5rem 0 0 0.1rem;
+}
+
+.card-title {
+    padding: 2.5rem 0 1rem 0;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 1.7rem;
+    color: $paragraphs;
+    text-transform: uppercase;
+}
+
+.card-desc {
+    padding-top: 5px;
+    padding-bottom: 30px;
+    color: $paragraphs;
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+}
+
+.card1 {
+    background-color: $bg-1;
+    border-radius: 10px 10px 0 0;
+    width: 300px;
+    height: 400px;
+    
+}
+
+.card2 {
+    background-color: $bg-2;
+    width: 300px;
+    height: 400px;
+}
+
+.card3 {
+    background-color: $bg-3;
+    border-radius: 0 0 10px 10px;
+    width: 300px;
+    height: 400px;
+}
+
+.btn {
+    background-color: $buttons;
+    width: 130px;
+    height: 3rem;
+    border-radius: 3rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.card1-btn {
+    color: $bg-1;
+    
+}
+
+.card2-btn {
+    color: $bg-2;
+    
+}
+
+.card3-btn {
+    color: $bg-3;
+
+}
